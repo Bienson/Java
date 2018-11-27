@@ -36,17 +36,14 @@ public class Variables {
         System.out.println(boo);
         System.out.println(helloHowAreYou);
 
-        //-------------------------------------------//
-
         // The meaning of brackets
 
         System.out.println("---------------------------------");
         System.out.println("Sum: " + b + b1);
         System.out.println("Sum: " + (b + b1));
 
-        //-------------------------------------------//
-
         // Operations on variables
+
         int x = 1 + 2;
         int x1 = x + b;
         int y = b - b1;
@@ -66,8 +63,6 @@ public class Variables {
         System.out.println(dd); // 130 / 3 = 43.0 => Still missing reminder
         System.out.println(dz); // 130 / 3 = 43.333333333333336
         System.out.println(r);
-
-        //--------------------------------------------//
 
         // Incrementation and decrementation
 
