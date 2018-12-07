@@ -86,5 +86,22 @@ public class Variables {
         x %= 5; // x = x % 5;
 
         System.out.println(x);
+
+        // Const
+
+        final int Z_Z = 13;
+
+        System.out.println(Z_Z);
+
+        // Var
+
+        var sdf = 7;
+        // var = q;
+        // var = null;  var nie może być typu object
+        var g = 1; //wartość var jest typu int do momentu aż braknie miejsca, wtedy ma wartość long
+        var o = 1.1; //Zawsze wartość double
+        var q = "napis";
+        var w = 'q';
+
     }
 }
